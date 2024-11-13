@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Using for loop</title>
+</head>
+<body>
+<h2>JavaScript Loops</h2>
+<p id="demo"></p>
+<script>
+    <!--p1-->
+    let text = "";
+    for (let i = 0; i < 5; i++) {
+        text += "The number is " + i + "<br>";
+    }
+    document.getElementById("demo").innerHTML = text;
+    // p2
+    let num = prompt("Enter your number: ");
+    let total = 0;
+    for (let j = 0; j < num; j++) {
+        total = total + j;
+    }
+    alert(total);
+</script>
+</body>
+</html>
